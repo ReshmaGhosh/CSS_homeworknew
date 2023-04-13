@@ -90,7 +90,7 @@ nav h3{
 
  .div1{
     padding-top: 60px;
-    width: 420px;
+    width: 480px;
     height: 280px;
     background-color: darksalmon;
 
@@ -109,7 +109,7 @@ nav h3{
 .div3{
     /* margin-top: 100px; */
     padding-top: 60px;
-    width: 420px;
+    width: 440px;
     height: 280px;
     background-color:chocolate; 
 } 
@@ -124,13 +124,13 @@ nav h3{
     text-align: center;
 }  
 .first-para{
-    padding-top: 2rem;
+    padding-top: 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .second-para-div1{
-    width: 640px;
+    width: 680px;
     height: 200px;
     background-color:chocolate;
     margin: 0;
@@ -147,7 +147,7 @@ nav h3{
 }
 
 .second-para-div3{
-    width: 410px;
+    width: 440px;
     height: 200px;
     background-color:darksalmon;
 }
@@ -179,7 +179,7 @@ nav h3{
    
    .footer-para{
        padding-top: 25px;
-       width: 350px;
+       width: 400px;
        height: 280px;
        background-color: blueviolet;
        
