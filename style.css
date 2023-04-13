@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 750px;
 
    /* background-size: 1300px 500px; */
     background-color: black;
@@ -34,7 +34,7 @@ nav{
     position: sticky;
     top: 0;
     z-index: 2;
-    min-height: 10vh;
+    min-height: 12vh;
 
 }
 nav ul {
@@ -53,12 +53,12 @@ nav ul {
 }
 nav h3{
     display: flex;
-    padding-right: 25rem;
-    font-size: 2rem;
+    padding-right: 30rem;
+    font-size: 2.8rem;
     color: aliceblue;
 }
 .div{
-   padding-bottom: 160px;
+   padding-top: 8rem;
 }
 .para1{
     display: flex;
@@ -89,9 +89,9 @@ nav h3{
 /* main starts here */
 
  .div1{
-    padding-top: 60px;
+    padding-top: 90px;
     width: 480px;
-    height: 280px;
+    height: 300px;
     background-color: darksalmon;
 
 }
@@ -108,9 +108,9 @@ nav h3{
 
 .div3{
     /* margin-top: 100px; */
-    padding-top: 60px;
+    padding-top: 90px;
     width: 440px;
-    height: 280px;
+    height: 300px;
     background-color:chocolate; 
 } 
 .div3 h3{
@@ -124,19 +124,19 @@ nav h3{
     text-align: center;
 }  
 .first-para{
-    padding-top: 4rem;
+    padding-top: 13rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .second-para-div1{
     width: 680px;
-    height: 200px;
+    height: 300px;
     background-color:chocolate;
     margin: 0;
 }
 .second-para-div1 h3{
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 10px;
     text-align: center;
     color: aliceblue;
@@ -148,11 +148,11 @@ nav h3{
 
 .second-para-div3{
     width: 440px;
-    height: 200px;
+    height: 300px;
     background-color:darksalmon;
 }
 .second-para-div3 h3{
-    padding-top: 40px;
+    padding-top: 90px;
     padding-bottom: 10px;
     text-align: center;
     color: aliceblue;
@@ -178,9 +178,9 @@ nav h3{
    } */
    
    .footer-para{
-       padding-top: 25px;
+       padding-top: 50px;
        width: 400px;
-       height: 280px;
+       height: 300px;
        background-color: blueviolet;
        
    }
@@ -200,7 +200,7 @@ nav h3{
     grid-template-columns: 1fr 1fr 1fr;
    }
    .footer-para1{
-    padding-top: 3rem;
+    padding-top: 5rem;
    }
 
    .footer1 h3{
@@ -218,8 +218,10 @@ nav h3{
 .footer-para2{
     display: flex;
     justify-content:space-around; 
-    padding: 20px 20px;
+    padding: 40px 40px;
     color:wheat;
+    padding-top: 3rem;
+    font-size:x-large;
 }
 /* footer ends here */
  
