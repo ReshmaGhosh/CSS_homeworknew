@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+
+body{
+    
+
+    background: url(images/cake3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+   /* background-size: 1300px 500px; */
+    background-color: black;
+    
+   
+}
+/* header starts here */
+
+nav{
+    display: flex;
+    
+    justify-content:right; 
+    align-items:center;
+    background-color: rgb(63, 37, 233);
+    
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    min-height: 10vh;
+
+}
+nav ul {
+    
+    display: flex;
+   
+    gap: 3rem;
+    padding-right: 8rem;
+    
+}
+.nav-link{
+    color: aliceblue;
+    font-size: larger;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+}
+nav h3{
+    display: flex;
+    padding-right: 25rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.div{
+   padding-bottom: 160px;
+}
+.para1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10px;
+    color: aliceblue;
+    font-size:3rem;
+}
+.para2{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 2rem;
+}
+.div-para{
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+.button{
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    
+}
+/* header ends here */
+
+/* main starts here */
+
+ .div1{
+    padding-top: 60px;
+    width: 420px;
+    height: 280px;
+    background-color: darksalmon;
+
+}
+.div1 h3{
+    
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.div1 p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.div3{
+    /* margin-top: 100px; */
+    padding-top: 60px;
+    width: 420px;
+    height: 280px;
+    background-color:chocolate; 
+} 
+.div3 h3{
+    
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.div3 p{
+    color: aliceblue;
+    text-align: center;
+}  
+.first-para{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.second-para-div1{
+    width: 640px;
+    height: 200px;
+    background-color:chocolate;
+    margin: 0;
+}
+.second-para-div1 h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+} 
+.second-para-div1  p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.second-para-div3{
+    width: 410px;
+    height: 200px;
+    background-color:darksalmon;
+}
+.second-para-div3 h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+.second-para-div3 p{
+    color: aliceblue;
+    text-align: center;
+}
+.second-para{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* main ends here */
+
+
+/* footer starts here */
+ /* .footer-img1{
+    padding-top: 25px;
+   }
+   
+   .footer-img2{
+       padding-top: 25px;
+   } */
+   
+   .footer-para{
+       padding-top: 25px;
+       width: 350px;
+       height: 280px;
+       background-color: blueviolet;
+       
+   }
+   
+   .footer-para h3{
+       color: aliceblue;
+       text-align: center;
+       padding-top: 30px;
+   }
+   .footer-para p{
+       color: aliceblue;
+       text-align: center;
+       padding-top: 25px;
+   }
+   .footer-para1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+   .footer-para1{
+    padding-top: 3rem;
+   }
+
+   .footer1 h3{
+    padding-bottom: 10px;
+}
+.footer2 h3{
+    padding-bottom: 10px;
+}
+.footer3 h3{
+    padding-bottom: 10px;
+}
+.footer4 h3{
+    padding-bottom: 10px;
+}
+.footer-para2{
+    display: flex;
+    justify-content:space-around; 
+    padding: 20px 20px;
+    color:wheat;
+}
+/* footer ends here */
+ 
