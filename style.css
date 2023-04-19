@@ -18,7 +18,7 @@ body{
     height: 750px;
 
    /* background-size: 1300px 500px; */
-    background-color: black;
+    background-color: wheat;
     
    
 }
@@ -58,7 +58,7 @@ nav h3{
     color: aliceblue;
 }
 .div{
-   padding-top: 8rem;
+   padding-top: 15rem;
 }
 .para1{
     display: flex;
@@ -66,12 +66,13 @@ nav h3{
     align-items:center;
     padding-top: 10px;
     color: aliceblue;
-    font-size:3rem;
+    font-size:4rem;
 }
 .para2{
     text-align: center;
     color: aliceblue;
     padding-top: 2rem;
+    font-size: larger;
 }
 .div-para{
     text-align: center;
@@ -180,7 +181,7 @@ nav h3{
 }
 .second-para{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 350px;
 }
 /* main ends here */
